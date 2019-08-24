@@ -51,6 +51,21 @@ Divisor:
 [Raw paste of default config](https://raw.githubusercontent.com/Erarnitox/bulk-texture-creator/master/res/Texture.conf)
 
 ## Example Results:
+Here is an Example:
+
+First of all the Input Picture:
+![Input](https://github.com/Erarnitox/bulk-texture-creator/blob/master/res/Example/Inputs/RedStone.JPG)
+
+From that BULK will create a seamless albedo map in the resolution you have specified: 
+![Albedo](https://github.com/Erarnitox/bulk-texture-creator/blob/master/res/Example/Output/RedStone.JPG_0005_albedo.png)
+
+Bulk will then downsample the Texture by the Divisor you have specified and will calculate a normal map:
+![Normal](https://github.com/Erarnitox/bulk-texture-creator/blob/master/res/Example/Output/RedStone.JPG_0005_normal.png)
+
+Bulk will also provide a basic roughness map for the texture: 
+![Roughness](https://github.com/Erarnitox/bulk-texture-creator/blob/master/res/Example/Output/RedStone.JPG_0005_rough.png)
+
+You can find a couple of example Results [here](https://github.com/Erarnitox/bulk-texture-creator/tree/master/res/Example)
 ## Video Demonstration:
 
 ## License
