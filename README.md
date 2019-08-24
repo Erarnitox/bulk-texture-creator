@@ -11,12 +11,12 @@ Once started the Program should look like this:
 
 ![ScreenShotStart](https://raw.githubusercontent.com/Erarnitox/bulk-texture-creator/master/res/1.PNG)
 
-You can now select a picture from your from your input folder. 
+You can now select a picture from your input folder. 
 
 BULK will then select every picture in that folder.
 
-Once you hit the Create Button BULK will then start to create an albedo, normal and roughness map
-for every picture in that folder and store the output Textures in a Folder "Outputs". 
+Once you hit the `Create` Button BULK will then start to create an albedo, normal and roughness map
+for every picture in that folder and store the output Textures in a Folder `Outputs`. 
 
 ### Prerequisites
 
