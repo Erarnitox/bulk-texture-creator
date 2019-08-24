@@ -3,11 +3,14 @@
 Simple Tool to create seamless PBR Texturesets (especially Ground Textures) from Photographs in bulk.
 
 ## Getting Started
-A pre-compiled jar programm of BULK Texture Creator can be Downloaded from here: 
+A pre-compiled jar programm of BULK Texture Creator can be Downloaded from here:
+
 [**DOWNLOAD**](https://github.com/Erarnitox/bulk-texture-creator/blob/master/bin/BULK.jar?raw=true)
 
 Once started the Program should look like this:
+
 ![ScreenShotStart](https://raw.githubusercontent.com/Erarnitox/bulk-texture-creator/master/res/1.PNG)
+
 You can now select a picture from your from your input folder. 
 BULK will then select every picture in that folder.
 Once you hit the Create Button BULK will then start to create an albedo, normal and roughness map
