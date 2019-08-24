@@ -183,7 +183,6 @@ public class TextureCreator extends Frame{
 					for(File image : Listing) { //do for all pictures 
 						progress = (int)(((float)count/(float)maxCount)*100);
 						status.setText(String.format("%d/%d - %d%%...", count, maxCount, progress));
-						System.out.println(String.format("%d/%d - %d%%...", count, maxCount, progress));
 						this.repaint();
 						BufferedImage upperLayer = ImageIO.read(image);	
 						if(upperLayer.getHeight() > upperLayer.getWidth()) {
@@ -300,7 +299,7 @@ public class TextureCreator extends Frame{
 				        normalMap=tiledNormal.getSubimage(this.textureSize+1, this.textureSize+1, this.textureSize, this.textureSize);
 				        temp=tiledRough.getSubimage(this.textureSize+1, this.textureSize+1, this.textureSize, this.textureSize);
 				        
-				        BufferedImage roughness = new BufferedImage(1024, 1024, BufferedImage.TYPE_BYTE_GRAY);
+				        BufferedImage roughness = new BufferedImage(this.textureSize, this.textureSize, BufferedImage.TYPE_BYTE_GRAY);
 				        Graphics rough = roughness.getGraphics();  
 						rough.drawImage(temp, 0, 0, null); 
 						rough.dispose();
@@ -328,7 +327,10 @@ public class TextureCreator extends Frame{
 						
 						++count;
 					}
-				}	
+					status.setText("Finished Successfuly!");
+				}else {
+					status.setText("Directory is Empty!");
+				}
 	}
 	
 	private static BufferedImage convertToARGB(BufferedImage image)
@@ -394,17 +396,20 @@ public class TextureCreator extends Frame{
 					Color c21 = new Color(proxyimage.getRGB(x + 1, y));
 					Color c22 = new Color(proxyimage.getRGB(x + 1, y + 1));
 
+					//apply the kernel for r
 					int r = c00.getRed() / 9 + c01.getRed() / 9 + c02.getRed() / 9
 							+ c10.getRed() / 9 + c11.getRed() / 9 + c12.getRed()
 							/ 9 + c20.getRed() / 9 + c21.getRed() / 9
 							+ c22.getRed() / 9;
 
+					//apply the kernel for g
 					int g = c00.getGreen() / 9 + c01.getGreen() / 9
 							+ c02.getGreen() / 9 + c10.getGreen() / 9
 							+ c11.getGreen() / 9 + c12.getGreen() / 9
 							+ c20.getGreen() / 9 + c21.getGreen() / 9
 							+ c22.getGreen() / 9;
 
+					//apply the transformation for b
 					int b = c00.getBlue() / 9 + c01.getBlue() / 9 + c02.getBlue()
 							+ c10.getBlue() / 9 + c11.getBlue() / 9 + c12.getBlue()
 							/ 9 + c20.getBlue() / 9 + c21.getBlue() / 9
