@@ -71,5 +71,5 @@ You can find a couple of example Results [here](https://github.com/Erarnitox/bul
 
 ## License
 
-This project is licensed under the GNU General Public License v3.0 - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE.md](https://github.com/Erarnitox/bulk-texture-creator/edit/master/LICENSE.md) file for details
 
