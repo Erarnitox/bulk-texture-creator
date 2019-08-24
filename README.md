@@ -16,7 +16,7 @@ You can now select a picture from your input folder.
 BULK will then select every picture in that folder.
 
 Once you hit the `Create` Button BULK will then start to create an albedo, normal and roughness map
-for every picture in that folder and store the output Textures in a Folder `Outputs`. 
+for every picture in that folder and store the output Textures in a Folder `Output`. 
 
 ### Prerequisites
 
