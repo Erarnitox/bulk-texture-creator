@@ -3,7 +3,7 @@
 Simple Tool to create seamless PBR Texturesets (especially Ground Textures) from Photographs in bulk.
 
 ## Getting Started
-A pre-compiled jar programm of BULK Texture Creator can be Downloaded from here:
+A pre-compiled jar program of BULK Texture Creator can be Downloaded from here:
 
 [**DOWNLOAD**](https://github.com/Erarnitox/bulk-texture-creator/blob/master/bin/BULK.jar?raw=true)
 
