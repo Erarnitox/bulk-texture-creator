@@ -45,7 +45,7 @@ Divisor:
 
 **Strength:** when making tileable how soft is the bending. Where 1.0 is hard and 0.0 is soft.
 
-**Divisor:** used to downsample the Normal map for smoother results. Where 1 very sharp and 5 very blury    **!!DON'T SET TO 0!!**
+**Divisor:** used to downsample the Normal map for smoother results. Where 1 very sharp and 5 very blury
 
 
 [Raw paste of default config](https://raw.githubusercontent.com/Erarnitox/bulk-texture-creator/master/res/Texture.conf)
