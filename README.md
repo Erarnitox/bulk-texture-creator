@@ -67,6 +67,7 @@ Bulk will also provide a basic roughness map for the texture:
 
 You can find a couple of example Results [here](https://github.com/Erarnitox/bulk-texture-creator/tree/master/res/Example)
 ## Video Demonstration:
+[<img src="https://img.youtube.com/vi/yUWNrMGyGKs/maxresdefault.jpg" width="50%">](https://youtu.be/yUWNrMGyGKs)
 
 ## License
 
